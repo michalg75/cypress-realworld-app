@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "target": "es6",
+    "types": [
+      "cypress",
+      "@percy/cypress"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "isolatedModules": false,
+    "allowJs": true,
+    "noEmit": true
+  }
+}
