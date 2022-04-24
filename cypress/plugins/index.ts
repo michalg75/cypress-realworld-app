@@ -9,7 +9,7 @@ import codeCoverageTask from "@cypress/code-coverage/task";
 dotenv.config({ path: ".env.local" });
 dotenv.config();
 
-const awsConfig = require(path.join(__dirname, "../../aws-exports-es5.js"));
+// const awsConfig = require(path.join(__dirname, "../../aws-exports-es5.js"));
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (on, config) => {
